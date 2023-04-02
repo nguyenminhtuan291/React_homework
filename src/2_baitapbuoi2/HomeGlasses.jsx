@@ -9,7 +9,7 @@ import GlassesList from './GlassesList'
 
 
 function HomeGlasses() {
-  const [product, setProduct] = useState(null)
+  const [product, setProduct] = useState("")
 
   const selectGlass = (product) => {
     setProduct(product)
